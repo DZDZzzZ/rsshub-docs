@@ -115270,6 +115270,41 @@
       }
     }
   },
+  "minhangmuseum": {
+    "name": "Minhang Museum",
+    "url": "minhangmuseum.shmh.gov.cn",
+    "zh": {
+      "name": "上海市闵行区博物馆"
+    },
+    "categories": [
+      "travel"
+    ],
+    "heat": 0,
+    "routes": {
+      "/minhangmuseum/interim": {
+        "path": "/interim",
+        "name": "临时展览",
+        "maintainers": [
+          "magazian"
+        ],
+        "example": "/minhangmuseum/interim",
+        "categories": [
+          "travel"
+        ],
+        "radar": [
+          {
+            "source": [
+              "minhangmuseum.shmh.gov.cn/weixin/interim/list.htm"
+            ],
+            "target": "/interim"
+          }
+        ],
+        "location": "interim.tsx",
+        "heat": 0,
+        "topFeeds": []
+      }
+    }
+  },
   "missav": {
     "name": "MissAV",
     "url": "missav.ws",
